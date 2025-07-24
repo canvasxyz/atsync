@@ -1,0 +1,16 @@
+.env
+.env.*
+.DS_Store
+.next/
+.vscode/
+.vercel/
+.wrangler
+
+node_modules/
+
+tsconfig.tsbuildinfo
+tsconfig.node.tsbuildinfo
+
+lib/
+dist/
+.cache/
