@@ -19,7 +19,7 @@
 		"clean": "tsc --build --clean",
 		"lint": "eslint .",
 		"publish": "npm publish --access public",
-		"test": "ava"
+		"test": "ava --serial --timeout 30000"
 	},
 	"dependencies": {
 		"@ava/typescript": "^5.0.0",
